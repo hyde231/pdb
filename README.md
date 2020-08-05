@@ -2,12 +2,14 @@
 
 This is an attempt to combine pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates.
 
-Sources scraped and used as if Aug 05th, 2020:
+Sources scraped and used as of Aug 05th, 2020:
 - https://www.freeones.xxx/ : 50315 entries
 - https://www.indexxx.com/ : 51355 entries + aliases
 - https://thenude.com : 39060 entries + aliases
 - https://www.eurobabeindex.com/: 5118 entries + aliases
 - https://www.pornpics.com/ : 18950 entries
+
+WIP ongoing for those:
 - https://www.babepedia.com/ : 29950 entries
 - http://www.boobpedia.com/ : 10828 entries (pornstarts only)
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
@@ -15,8 +17,8 @@ Sources scraped and used as if Aug 05th, 2020:
 The challenge is to create a combined list, that does not include 220k+ entries but groups as many duplictes as possible.
 
 ## Example of the combined data
-'ids' are the unique part of urls from scraped sources
-'names' are names and aliases used according to the different dources
+- 'ids' are the unique part of urls from scraped sources
+- 'names' are names and aliases used according to the different dources
 
 In the example below, the performer is listed as 'abigaile' on eurobabeindex, but as 'abigaile-johnson' on indexxx and freeones. In a similar way all the names and aliases are stored with the mentioning source attached.
 ```
