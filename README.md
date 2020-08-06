@@ -1,26 +1,31 @@
-# pdb
+# pdb - NSFW!
+Listing 129,258 individual pornstars with 290,856 aliases, based on 235,839 raw entries scraped from 9 different soruces.
 
-This is an attempt to combine pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates.
+## Purpose
+This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates together.
 
-Sources scraped and used as of Aug 05th, 2020:
+Sources scraped and used as of Aug 06th, 2020:
 - https://www.freeones.xxx/ : 50315 entries
-- https://www.indexxx.com/ : 51355 entries + aliases
-- https://thenude.com : 39060 entries + aliases
-- https://www.eurobabeindex.com/: 5118 entries + aliases
+- https://www.indexxx.com/ : 51355 entries (+ aliases)
+- https://thenude.com : 39060 entries (+ aliases)
+- https://www.eurobabeindex.com/: 5118 entries (+ aliases)
 - https://www.pornpics.com/ : 18950 entries
-
-WIP ongoing for those:
 - https://www.babepedia.com/ : 29950 entries
-- http://www.boobpedia.com/ : 10828 entries (pornstarts only)
+- http://www.boobpedia.com/ : 10828 entries (pornstars only)
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
+- hhtps://metadataapi.net/ : 18981 entries (female only)
 
-The challenge is to create a combined list, that does not include 220k+ entries but groups as many duplictes as possible.
+The challenge is to create a combined list, that does not include 235k+ entries but groups as many duplictes as possible. The current combined file provided as ziped json contains ~129k entries with references to the sources listed above. The sum of all aliases is around  
+
+## Method of aggregation
+...to be updated...
 
 ## Example of the combined data
-- 'ids' are the unique part of urls from scraped sources
-- 'names' are names and aliases used according to the different dources
+In the example below, the performer is listed with the id 'abigaile' on eurobabeindex, but as 'abigaile-johnson' on indexxx and freeones. In a similar way all the names and aliases are stored with the mentioning source attached. 
 
-In the example below, the performer is listed as 'abigaile' on eurobabeindex, but as 'abigaile-johnson' on indexxx and freeones. In a similar way all the names and aliases are stored with the mentioning source attached.
+- 'ids' lists the unique part of urls from scraped sources. For example an id of "Abigaile Johnson_16404" from thenude refers to the uinque page https://www.thenude.com/Abigaile%20Johnson_16404.htm
+- 'names' collects names and aliases used according to the different sources
+
 ```
 {
 	"uuid": "1b8c5dba-a55d-430c-938e-aa22482c7759",
@@ -37,6 +42,15 @@ In the example below, the performer is listed as 'abigaile' on eurobabeindex, bu
 		],
 		"abigaile+johnson": [
 			"pornpics"
+		],
+		"Abigaile_Johnson": [
+			"babepedia"
+		],
+		"/629071/abigaile-johnson-pornstars": [
+			"adultempire"
+		],
+		"abby-a": [
+			"tpdb"
 		]
 	},
 	"names": {
@@ -58,7 +72,9 @@ In the example below, the performer is listed as 'abigaile' on eurobabeindex, bu
 			"Porn World",
 			"Teen Fidelity",
 			"freeones",
-			"pornpics"
+			"pornpics",
+			"babepedia",
+			"adultempire"
 		],
 		"Abigaile": [
 			"thenude",
@@ -80,7 +96,9 @@ In the example below, the performer is listed as 'abigaile' on eurobabeindex, bu
 			"Reality Kings",
 			"Teen Fidelity",
 			"freeones",
-			"pornpics"
+			"pornpics",
+			"babepedia",
+			"adultempire"
 		],
 		"Abagaile Johnson": [
 			"thenude",
@@ -99,10 +117,12 @@ In the example below, the performer is listed as 'abigaile' on eurobabeindex, bu
 			"eurobabeindex",
 			"Club Seventeen",
 			"indexxx",
-			"X-Art"
+			"X-Art",
+			"tpdb"
 		],
 		"Abby A": [
-			"thenude"
+			"thenude",
+			"tpdb"
 		],
 		"Abigail": [
 			"thenude",
@@ -182,3 +202,8 @@ In the example below, the performer is listed as 'abigaile' on eurobabeindex, bu
 	"dataRef": {}
 }
 ```
+
+## Future use of the data
+The data allows to search for names / aliases and get references to profile pages of numerous aggregators for identification purposes.
+
+If individual data can be added, the grouping algorithm could be much more precise and allow for true uuids.
