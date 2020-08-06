@@ -21,182 +21,90 @@ The challenge is to create a combined list, that does not include 235k+ entries 
 ...to be updated...
 
 ## Example of the combined data
-In the example below, the performer is listed with the id 'abigaile' on eurobabeindex, but as 'abigaile-johnson' on indexxx and freeones. In a similar way all the names and aliases are stored with the mentioning source attached. 
+In the example below, the performer is listed with the id 'adrianna-sage' (with double n) on tpdb, but as 'adriana-sage' on indexxx and freeones. In a similar way all the names and aliases are stored with the mentioning source attached. 
 
-- 'ids' lists the unique part of urls from scraped sources. For example an id of "Abigaile Johnson_16404" from thenude refers to the uinque page https://www.thenude.com/Abigaile%20Johnson_16404.htm
+- 'ids' lists the unique part of urls from scraped sources. For example an id of "Adriana Sage_11565" from thenude refers to the uinque page https://www.thenude.com/Adriana%20Sage_11565.htm
 - 'names' collects names and aliases used according to the different sources
 
 ```
 {
-	"uuid": "1b8c5dba-a55d-430c-938e-aa22482c7759",
+	"uuid": "fdca101c-24a4-4806-b249-0483154a2692",
 	"ids": {
-		"Abigaile Johnson_16404": [
+		"Adriana Sage_11565": [
 			"thenude"
 		],
-		"abigaile": [
-			"eurobabeindex"
-		],
-		"abigaile-johnson": [
+		"adriana-sage": [
 			"indexxx",
 			"freeones"
 		],
-		"abigaile+johnson": [
+		"adriana+sage": [
 			"pornpics"
 		],
-		"Abigaile_Johnson": [
+		"Adriana_Sage": [
 			"babepedia"
 		],
-		"/629071/abigaile-johnson-pornstars": [
+		"/27419/adriana-sage-pornstars": [
 			"adultempire"
 		],
-		"abby-a": [
+		"adrianna-sage": [
 			"tpdb"
 		]
 	},
 	"names": {
-		"Abigaile Johnson": [
+		"Adriana Sage": [
 			"thenude",
-			"eurobabeindex",
 			"indexxx",
-			"18videoz.com",
-			"Babes",
-			"Blacks On Blondes",
-			"Brazzers",
-			"DDF Prod Network",
-			"DogFart Network",
-			"Nubile Films",
-			"Nubiles",
-			"Porn Pros Network 2",
-			"Passion-HD",
-			"Porn Pros Network",
-			"Porn World",
-			"Teen Fidelity",
 			"freeones",
 			"pornpics",
 			"babepedia",
 			"adultempire"
 		],
-		"Abigaile": [
+		"Adriana": [
 			"thenude",
-			"eurobabeindex",
 			"indexxx",
-			"18videoz.com",
-			"Babes",
-			"Blacks On Blondes",
-			"Brazzers",
-			"DDF Prod Network",
-			"DogFart Network",
-			"Karups",
-			"Nubile Films",
-			"Nubiles",
-			"Porn Pros Network 2",
-			"Passion-HD",
-			"Porn Pros Network",
-			"Porn World",
-			"Reality Kings",
-			"Teen Fidelity",
 			"freeones",
 			"pornpics",
 			"babepedia",
 			"adultempire"
 		],
-		"Abagaile Johnson": [
-			"thenude",
-			"BangBros Network",
-			"indexxx",
-			"Monsters of Cock"
+		"Adrian Sage": [
+			"thenude"
 		],
-		"Abagaile": [
-			"thenude",
-			"BangBros Network",
-			"indexxx",
-			"Monsters of Cock"
+		"Adrian": [
+			"thenude"
 		],
-		"Abby": [
+		"Adriana M": [
+			"thenude"
+		],
+		"Adrianna": [
 			"thenude",
-			"eurobabeindex",
-			"Club Seventeen",
 			"indexxx",
-			"X-Art",
 			"tpdb"
 		],
-		"Abby A": [
+		"Adrianna Sage": [
 			"thenude",
+			"indexxx",
 			"tpdb"
 		],
-		"Abigail": [
-			"thenude",
-			"eurobabeindex",
-			"Joy Mii"
-		],
-		"Abigail Johnson": [
-			"thenude",
-			"eurobabeindex"
-		],
-		"Abigale": [
-			"thenude",
-			"eurobabeindex",
-			"indexxx",
-			"Mofos Network"
-		],
-		"Abigale Johnson": [
-			"thenude",
-			"eurobabeindex",
-			"indexxx",
-			"Mofos Network"
-		],
-		"Petty": [
-			"thenude",
-			"eurobabeindex",
-			"indexxx"
-		],
-		"Pinky June": [
+		"Adrianna-sage": [
 			"thenude"
 		],
-		"Pinky": [
+		"Alana": [
 			"thenude"
 		],
-		"Spunky": [
-			"thenude",
-			"eurobabeindex",
-			"teenburg.com"
-		],
-		"Spunky Bee": [
-			"thenude",
-			"eurobabeindex"
-		],
-		"Veronika": [
-			"thenude",
-			"eurobabeindex",
-			"indexxx"
-		],
-		"Veronika A": [
+		"Alana Moreno": [
 			"thenude"
 		],
-		"Veronika W": [
+		"Lana": [
+			"thenude"
+		],
+		"Maryjane": [
 			"thenude",
+			"ATKingdom",
 			"indexxx"
 		],
-		"Abi": [
-			"eurobabeindex"
-		],
-		"Abigaile J": [
-			"eurobabeindex"
-		],
-		"Abigalie": [
-			"eurobabeindex"
-		],
-		"Barbara": [
-			"eurobabeindex"
-		],
-		"Rose": [
-			"eurobabeindex"
-		],
-		"Abigiale Johnson": [
-			"indexxx"
-		],
-		"Abigiale": [
-			"indexxx"
+		"Rosa": [
+			"thenude"
 		]
 	},
 	"dataRef": {}
