@@ -15,7 +15,7 @@ Sources scraped and used as of Aug 06th, 2020:
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
 - hhtps://metadataapi.net/ : 18981 entries (female only)
 
-The challenge is to create a combined list, that does not include 235k+ entries but groups as many duplictes as possible. The current combined file provided as ziped json contains ~129k entries with references to the sources listed above. The sum of all aliases is around  
+The challenge is to create a combined list, that does not include 235k+ entries but groups as many duplictes as possible.
 
 ## Method of aggregation
 ...to be updated...
