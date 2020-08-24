@@ -1,5 +1,5 @@
 # pdb - NSFW!
-Listing 129,258 individual pornstars with 290,856 aliases, based on 235,839 raw entries scraped from 9 different soruces.
+Listing 130,0076 individual pornstars with 292,174 aliases, based on 239,517 raw entries scraped from 10 different soruces.
 
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates together.
@@ -13,7 +13,9 @@ Sources scraped and used as of Aug 06th, 2020:
 - https://www.babepedia.com/ : 29950 entries
 - http://www.boobpedia.com/ : 10828 entries (pornstars only)
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
-- hhtps://metadataapi.net/ : 18981 entries (female only)
+- https://metadataapi.net/ : 18981 entries (female only)
+Added on Aug 24th
+- https://www.mypornstarbook.net/ : 3678 entries
 
 The challenge is to create a combined list, that does not include 235k+ entries but groups as many duplictes as possible.
 
