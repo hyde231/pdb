@@ -1,5 +1,5 @@
 # pdb - NSFW!
-Listing 130,0076 individual pornstars with 292,174 aliases, based on 239,517 raw entries scraped from 10 different soruces.
+Listing 138411 individual pornstars with 306230 aliases, based on 297227 raw entries scraped from 14 different soruces.
 
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates together.
@@ -15,8 +15,12 @@ Sources scraped and used as of Aug 06th, 2020:
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
 - https://metadataapi.net/ : 18981 entries (female only)
 
-Added on Aug 24th
+Added on Aug 24th & 25th
 - https://www.mypornstarbook.net/ : 3678 entries
+- https://www.kindgirls.com/ : 1441 entries
+- http://www.pornteengirl.com : 5574 entries
+- http://www.data18.com : 12438 entries
+- https://www.porn-star.com/ : 8627 entries
 
 The challenge is to create a combined list, that does not include 235k+ entries but groups as many duplictes as possible.
 
@@ -118,3 +122,5 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 The data allows to search for names / aliases and get references to profile pages of numerous aggregators for identification purposes.
 
 If individual data can be added, the grouping algorithm could be much more precise and allow for true uuids.
+
+Adding a front end to browse the data (WIP)
