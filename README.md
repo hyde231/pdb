@@ -1,3 +1,7 @@
+
+# ATTENTION : This repository is outdated. All updated plus a data browser are now under https://github.com/hyde231/pornstar-lookup
+
+---
 # pdb - NSFW!
 Listing 138411 individual pornstars with 306230 aliases, based on 297227 raw entries scraped from 14 different soruces.
 
